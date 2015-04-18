@@ -1,2 +1,1 @@
-# yangyju.github.com
-Yang Y. Ju' HomePage 
+#Yang Y. Ju's HomePage 
