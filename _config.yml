@@ -1,0 +1,8 @@
+# Site settings
+title: See as you can
+email: youngyoungju@gmail.com
+github_username:  yangyju
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
