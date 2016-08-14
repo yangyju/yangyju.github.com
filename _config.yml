@@ -4,7 +4,8 @@ email: youngyoungju@gmail.com
 github_username:  yangyju
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
+markdown: rdiscount
 permalink: /blog/:year/:month/:day/:title
 
  github: [metadata]
