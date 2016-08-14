@@ -4,6 +4,6 @@ email: youngyoungju@gmail.com
 github_username:  yangyju
 
 # Build settings
-#markdown: kramdown
+markdown: kramdown
 pygments: true
 permalink: /blog/:year/:month/:day/:title
