@@ -1,0 +1,20 @@
+---
+layout: post
+title: "RSA"
+---
+see [RSA (cryptosystem)][RSA_wiki] on Wikipedia.
+
+see [Guide to Elliptic Curve Cryptography-D.Hankerson, A.Menezes, S.Vanstone][ECC]
+* chapter 1.2 Pulic-key cryptography.
+
+see [Handbook of Applied Cryptography by A.Menezes, P.van Oorschot and S.Vanstone][HAC]
+* chapter 1.8 Public-key cryptography
+	* 1.8.1 Public-key encryption
+	* 1.8.2 The necessity of authentication in public-key sytems
+* chapter 1.11 Key establishment, management, and certification.
+
+![RSA_wiki](https://en.wikipedia.org/wiki/RSA_(cryptosystem)#Proofs_of_correctness)
+[GMP package](https://gmplib.org/)
+[NTL](http://www.shoup.net/ntl/)
+![HAC](http://cacr.uwaterloo.ca/hac/)
+![ECC](http://cacr.uwaterloo.ca/ecc/)
