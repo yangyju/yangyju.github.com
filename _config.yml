@@ -6,6 +6,7 @@ github_username:  yangyju
 # Build settings
 #markdown: kramdown
 markdown: rdiscount
+pygments: true
 permalink: /blog/:year/:month/:day/:title
 
  github: [metadata]
