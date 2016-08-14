@@ -6,3 +6,11 @@ github_username:  yangyju
 # Build settings
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+ github: [metadata]
+ kramdown:
+   input: GFM
+   hard_wrap: false
+ gems:
+   - jekyll-coffeescript
+   - jekyll-paginate
