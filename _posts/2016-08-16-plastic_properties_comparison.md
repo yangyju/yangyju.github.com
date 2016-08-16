@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Plastic Properties Comparison
+---
 
 ![Plastic Properties Comparison Graph](http://www.regal-plastics.com/assets/images/iapd_rectangle-2.jpg)
 
