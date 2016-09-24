@@ -14,4 +14,4 @@ From Wikipedia, the free encyclopedia
 ![MIMD](https://en.wikipedia.org/wiki/File:MIMD.svg)
 
 
-see [Flynn's taxonomy/](https://en.wikipedia.org/wiki/Flynn%27s_taxonomy/) for more detail.
+see [Flynn's taxonomy](https://en.wikipedia.org/wiki/Flynn%27s_taxonomy) for more detail.
