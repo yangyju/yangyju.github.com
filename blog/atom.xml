@@ -1,0 +1,31 @@
+---
+<<<<<<< HEAD
+layout: default
+=======
+layout: none
+>>>>>>> d12913dae2c2864bf0c4a8c0326afe642573d0a3
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Yang Y. Ju's Blog</title>
+	<link href="http://yangyju.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://yangyju.github.io/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>https://yangyju.github.io/blog</id>
+	<author>
+		<name>Yang Y. Ju</name>
+		<email>youngyoungju@gmail.com</email>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="http://yangyju.github.io{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>http://yangyju.github.io/{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
