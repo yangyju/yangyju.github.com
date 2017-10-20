@@ -7,12 +7,12 @@ I just write down the problems I met and the solutions I used.*
 
 **notes**
 
-1.Error:(49) undefined reference to '__atomic_fetch_add_4'
+1-Error:(49) undefined reference to '__atomic_fetch_add_4'
 
 in Android.mk, add this:
 LOCAL_LDLIBS +=  -latomic
 
-2.Android Studio使用OpenCV后，运行APP不需要安装OpenCV Manager即可运行，按照如下的方式进行修改 "onResume()":
+2-Android Studio使用OpenCV后，运行APP不需要安装OpenCV Manager即可运行，按照如下的方式进行修改 "onResume()":
 {% highlight java %}
     @Override
     public void onResume()
@@ -31,14 +31,13 @@ LOCAL_LDLIBS +=  -latomic
     }
 {% endhighlight %}
 
-
-3. add java-edition OpenCVLibrary module to the related app: 
+3-add java-edition OpenCVLibrary module to the related app: 
 New->Import Module->path/to/OpenCV-2.4.9-android-sdk/sdk/java/, add the 'openCVLibrary249' module, select the related moudle depends on 'openCVLibrary249', click F4, select Dependences-> click + ->3 Module dependences -> select ':openCVLibrary249' -> OK.
 
-4. copy Native-edition OpenCVLibrary to the related app(如果不安装OpenCV Manager的话，需要执行此步骤):
+4-copy Native-edition OpenCVLibrary to the related app(如果不安装OpenCV Manager的话，需要执行此步骤):
 cp path/to/OpenCV-2.4.9-android-sdk/sdk/native/libs to app/src/main/jniLibs
 
-5. after OpenCV Android sample projects imported in Android studio,  click 'Update' in the Adroid Gradle Plugin Update Recommanded dialog.
+5-after OpenCV Android sample projects imported in Android studio,  click 'Update' in the Adroid Gradle Plugin Update Recommanded dialog.
 
 **ref**
 
