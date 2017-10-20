@@ -3,7 +3,7 @@ layout: post
 title: " Notes on OpenCV-Android-Samples"
 ---
 *I am sorry, English is not my native language.
-I just write down the problems I met and the solutions I used*
+I just write down the problems I met and the solutions I used.*
 
 **notes**
 
