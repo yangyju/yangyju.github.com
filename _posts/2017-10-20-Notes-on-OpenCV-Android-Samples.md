@@ -38,15 +38,19 @@ cp path/to/OpenCV-2.4.9-android-sdk/sdk/native/libs to app/src/main/jniLibs
 5. after OpenCV Android sample projects imported in Android studio,  click 'Update' in the Adroid Gradle Plugin Update Recommanded dialog.
 
 **ref**
+
 *Android Studio*
+
 1.[Migrate from ndkCompile](https://developer.android.google.cn/studio/projects/add-native-code.html#ndkCompile)
 
 2.[Link Gradle to your native library](https://developer.android.google.cn/studio/projects/add-native-code.html#create-cmake-script)
+
 *OpenCV*
 
 3.[OpenCV4Android Samples](https://opencv.org/platforms/android/opencv4android-samples.html)
 
 4.[Application Development with Static Initialization](https://docs.opencv.org/2.4/doc/tutorials/introduction/android_binary_package/dev_with_OCV_on_Android.html#application-development-with-static-initialization)
+
 *github*
 
 5.[jlhonora/opencv-android-sample](https://github.com/jlhonora/opencv-android-sample)
