@@ -13,7 +13,7 @@ in Android.mk, add this:
 LOCAL_LDLIBS +=  -latomic
 
 2.Android Studio使用OpenCV后，运行APP不需要安装OpenCV Manager即可运行，按照如下的方式进行修改 "onResume()":
-
+{% highlight java %}
     @Override
     public void onResume()
     {
@@ -29,7 +29,7 @@ LOCAL_LDLIBS +=  -latomic
             mLoaderCallback.onManagerConnected(LoaderCallbackInterface.SUCCESS);
         }
     }
-
+{% endhighlight %}
 
 
 3. add java-edition OpenCVLibrary module to the related app: 
