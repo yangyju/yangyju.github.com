@@ -30,6 +30,8 @@ LOCAL_LDLIBS +=  -latomic
         }
     }
 
+
+
 3. add java-edition OpenCVLibrary module to the related app: 
 New->Import Module->path/to/OpenCV-2.4.9-android-sdk/sdk/java/, add the 'openCVLibrary249' module, select the related moudle depends on 'openCVLibrary249', click F4, select Dependences-> click + ->3 Module dependences -> select ':openCVLibrary249' -> OK.
 
