@@ -2,7 +2,8 @@
 layout: post
 title: " Notes on OpenCV-Android-Samples"
 ---
-*I am sorry, English is not my native language.*
+*I am sorry, English is not my native language.
+I just write down the problems I met and the solutions I used*
 
 **notes**
 
@@ -30,7 +31,7 @@ LOCAL_LDLIBS +=  -latomic
     }
 
 3. add java-edition OpenCVLibrary module to the related app: 
-New->Import Module->path/to/OpenCV-2.4.9-android-sdk/sdk/java/, add the 'openCVLibrary249' modular, select the related moudle depends on 'openCVLibrary249', click F4, select Dependences-> click + ->3 Module dependences -> select ':openCVLibrary249' -> OK.
+New->Import Module->path/to/OpenCV-2.4.9-android-sdk/sdk/java/, add the 'openCVLibrary249' module, select the related moudle depends on 'openCVLibrary249', click F4, select Dependences-> click + ->3 Module dependences -> select ':openCVLibrary249' -> OK.
 
 4. copy Native-edition OpenCVLibrary to the related app(如果不安装OpenCV Manager的话，需要执行此步骤):
 cp path/to/OpenCV-2.4.9-android-sdk/sdk/native/libs to app/src/main/jniLibs
