@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "shortest-path-within-lingo"
+title: "shortest path within lingo"
 ---
 本文介绍了最短路问题，并给出了一个用lingo解决该问题的一个范例代码。
-本文内容引自(http://www.smatrix.org)的一份文档.
+本文内容引自[http://www.smatrix.org](http://www.smatrix.org)的一份文档.
 
 最短路问题：
 给定由$N$个点$p_i$组成的集合$\{p_i\}$,其中$i=1,2,3,...,N.$该集合中任一点$p_i$到另一点 $p_j$的距离用 $c_{ij}$表示.如果 $p_i$到$p_j$没有弧连接,则规定$c_{ij}=+\infty$,又规定$c_{ij}=0,1 \leq i \leq N$,指定终点为$p_N$.求从$p_i$出发到$p_N$的最短路.
@@ -17,6 +17,7 @@ f(i)=\min_{j}\{c_{ij}+f(j)\} & \textrm{$i=1,2,3,\cdots ,N-1$}\\
 f(i)=0 & \textrm{$i=N$}
 \end{array} \right.
 $$
+
 这是一个函数方程，用Lingo解决的代码例程：
 
 !最短路问题;
