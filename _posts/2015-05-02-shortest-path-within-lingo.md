@@ -17,6 +17,7 @@ f(i)=\min_{j}\{c_{ij}+f(j)\} & \textrm{$i=1,2,3,\cdots ,N-1$}\\
 f(i)=0 & \textrm{$i=N$}
 \end{array} \right.
 $$
+
 这是一个函数方程，用Lingo解决的代码例程：
 
 !最短路问题;
