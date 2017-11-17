@@ -5,5 +5,5 @@ github_username:  yangyju
 
 # Build settings
 markdown: kramdown
-pygments: true
+highlighter: true
 permalink: /blog/:year/:month/:day/:title
