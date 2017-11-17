@@ -1,14 +1,3 @@
----
-<<<<<<< HEAD
-<<<<<<< HEAD
-layout: default
-=======
-layout: none
->>>>>>> d12913dae2c2864bf0c4a8c0326afe642573d0a3
-=======
-layout: none
->>>>>>> d12913dae2c2864bf0c4a8c0326afe642573d0a3
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 

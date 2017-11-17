@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Yang Y. Ju's Blog</title>
+	<link href="http://yangyju.github.io/exp/atom.xml" rel="self"/>
+	<link href="http://yangyju.github.io/exp"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>https://yangyju.github.io/exp</id>
+	<author>
+		<name>Yang Y. Ju</name>
+		<email>youngyoungju@gmail.com</email>
+	</author>
+
+	{% for testing in site.testings %}
+		<entry>
+			<title>{{ testing.title }}</title>
+			<link href="http://yangyju.github.io{{ testing.url }}"/>
+			<updated>{{ testing.date | date_to_xmlschema }}</updated>
+			<id>http://yangyju.github.io/{{ testing.id }}</id>
+			<content type="html">{{ testing.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>

@@ -1,16 +1,16 @@
 ---
 layout: default
-title: expts
+title: Exp.
 ---
 
 $e^{i\pi}+1=0$
 
-<div class="expts">
+<div class="exp">
 
   <h1>testing</h1>
 
-  <ul class="testing">
-    {% for testing in site.testing %}
+  <ul class="testings">
+    {% for testing in site.testings %}
       <li>
         <span class="testing-date">{{ testing.date | date: "%b %-d, %Y" }}</span>
         <a class="testing-link" href="{{ testing.url | prepend: site.baseurl }}">{{ testing.title }}</a>
