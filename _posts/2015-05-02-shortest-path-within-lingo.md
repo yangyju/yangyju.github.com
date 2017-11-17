@@ -11,12 +11,12 @@ title: "shortest-path-within-lingo"
 这里采用动态规划的方法,即用$p_i$表示状态,决策集合是$p_i$以外的点,选定一个点$p_j$以后,得到效益$c_{ij}$并转入新状态$p_j$,当状态是$p_N$时,过程停止.这是一个不定期多阶段决策过程。
 
 定义$f(i)$是由$p_i$点出发到终点$p_N$的最短路，由最优化原理可得
-\[
+$$
 \left\{ \begin{array}{ll}
 f(i)=\min_{j}\{c_{ij}+f(j)\} & \textrm{$i=1,2,3,\cdots ,N-1$}\\
 f(i)=0 & \textrm{$i=N$}
 \end{array} \right.
-\]
+$$
 这是一个函数方程，用Lingo解决的代码例程：
 
 !最短路问题;
