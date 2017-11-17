@@ -3,7 +3,7 @@ layout: post
 title: "shortest-path-within-lingo"
 ---
 本文介绍了最短路问题，并给出了一个用lingo解决该问题的一个范例代码。
-本文内容引自http://www.smatrix.org的一份文档.
+本文内容引自(http://www.smatrix.org)的一份文档.
 
 最短路问题：
 \[

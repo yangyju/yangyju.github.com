@@ -21,4 +21,3 @@ Full paper at Cryptology ePrint Archive:
 
 Presentation slides, based on research paper:
 [http://hardwear.io/wp-content/uploads/2015/10/got-HW-crypto-slides_hardwear_gunnar-christian.pdf](http://hardwear.io/wp-content/uploads/2015/10/got-HW-crypto-slides_hardwear_gunnar-christian.pdf)
-
