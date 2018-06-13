@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Domodal() return -1 && ActiveX Control
+title: DoModal() return -1 && ActiveX Control
 ---
 Maybe you have disabled the ActiveX Control Fuction when you create the MFC App. 
 
